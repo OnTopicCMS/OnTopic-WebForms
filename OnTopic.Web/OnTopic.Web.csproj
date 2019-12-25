@@ -29,6 +29,7 @@
     <NoWarn>CS0618,CA1010,CA1056,CA1065;CA1303</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="OnTopic" Version="4.0.0-alpha.1"></PackageReference>
     <PackageReference Include="GitVersionTask" Version="5.0.1">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -57,8 +58,5 @@
     <Compile Update="TypedTopicPage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OnTopic\OnTopic.csproj" />
   </ItemGroup>
 </Project>
