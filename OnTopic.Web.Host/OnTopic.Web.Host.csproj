@@ -44,17 +44,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="OnTopic, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OnTopic.4.0.0-alpha.1\lib\netstandard2.0\OnTopic.dll</HintPath>
+      <HintPath>..\packages\OnTopic.4.0.0\lib\netstandard2.0\OnTopic.dll</HintPath>
     </Reference>
     <Reference Include="OnTopic.Data.Caching, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OnTopic.Data.Caching.4.0.0-alpha.1\lib\netstandard2.0\OnTopic.Data.Caching.dll</HintPath>
-    </Reference>
-    <Reference Include="OnTopic.Data.Sql, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OnTopic.Data.Sql.4.0.0-alpha.1\lib\netstandard2.0\OnTopic.Data.Sql.dll</HintPath>
+      <HintPath>..\packages\OnTopic.Data.Caching.4.0.0\lib\netstandard2.0\OnTopic.Data.Caching.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.VisualStudio.Validation.15.5.31\lib\netstandard2.0\Microsoft.VisualStudio.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="OnTopic.Data.Sql, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OnTopic.Data.Sql.4.0.0\lib\netstandard2.0\OnTopic.Data.Sql.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ComponentModel.Annotations.4.6.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
