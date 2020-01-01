@@ -31,7 +31,7 @@ namespace OnTopic.Web.Host.Common.Templates {
       /*------------------------------------------------------------------------------------------------------------------------
       | Set data sources
       \-----------------------------------------------------------------------------------------------------------------------*/
-      Attributes.DataSource     = PageTopic.Attributes.Where(t => t.Key != "Body");
+      AttributeList.DataSource  = PageTopic.Attributes.Where(t => t.Key != "Body");
       Relationships.DataSource  = PageTopic.Relationships;
 
       /*------------------------------------------------------------------------------------------------------------------------

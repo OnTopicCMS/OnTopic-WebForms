@@ -33,7 +33,7 @@
           <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
 
           <h2>Attributes</h2>
-          <asp:Repeater ID="Attributes" runat="server">
+          <asp:Repeater ID="AttributeList" runat="server">
             <ItemTemplate>
               <li><b><%# ((AttributeValue)Container.DataItem).Key %>:</b> <%# ((AttributeValue)Container.DataItem).Value %></li>
             </ItemTemplate>
