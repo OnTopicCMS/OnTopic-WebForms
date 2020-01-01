@@ -49,7 +49,7 @@ namespace OnTopic.Web.Host {
     >===========================================================================================================================
     | Establishes URL routes and maps them to the appropriate page handlers.
     \-------------------------------------------------------------------------------------------------------------------------*/
-    void RegisterRoutes(RouteCollection routes) {
+    void RegisterRoutes(RouteCollection routes) =>
       routes.Add(
         "TopicUrl",
         new Route(
@@ -57,7 +57,6 @@ namespace OnTopic.Web.Host {
           new TopicsRouteHandler()
         )
       );
-    }
 
   } //Class
 } //Namespace
