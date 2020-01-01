@@ -10,20 +10,8 @@
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
 
-    <!-- Site Navigation Area -->
-    <navigation id="SiteNavigation">
-      <vc:menu />
-    </navigation>
-    <!-- /Site Navigation Area -->
-
     <!-- Main Site Content Area -->
     <main id="MainContentArea" class="page content" role="main">
-
-      <!-- Page Header Area -->
-      <section id="PageHeaderSection">
-        <vc:page-level-navigation />
-      </section>
-      <!-- /Page Header Area -->
 
       <article itemscope itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage" class="grid-container">
         <h1><%# PageTopic.Title %></h1>
@@ -33,7 +21,7 @@
           <asp:ContentPlaceHolder ID="Content" runat="server"></asp:ContentPlaceHolder>
 
           <h2>Attributes</h2>
-          <asp:Repeater ID="Attributes" runat="server">
+          <asp:Repeater ID="AttributeList" runat="server">
             <ItemTemplate>
               <li><b><%# ((AttributeValue)Container.DataItem).Key %>:</b> <%# ((AttributeValue)Container.DataItem).Value %></li>
             </ItemTemplate>
