@@ -35,7 +35,7 @@ namespace OnTopic {
       /*------------------------------------------------------------------------------------------------------------------------
       | Ensure editor types are accounted for
       \-----------------------------------------------------------------------------------------------------------------------*/
-      if (!Contains(nameof(ContentTypeDescriptor)))             Add(typeof(ConfigurableAttributeDescriptor));
+      if (!Contains(nameof(ConfigurableAttributeDescriptor)))   Add(typeof(ConfigurableAttributeDescriptor));
 
     }
 
